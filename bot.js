@@ -104,7 +104,7 @@ client.user.setStatus("dnd")
 });
 
 var adminprefix = '$'
-const developers = ['538351700331855883'] //الاي دى حقك
+const developers = ['433312730171179008'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
